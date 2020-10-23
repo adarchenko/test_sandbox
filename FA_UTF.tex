@@ -1,0 +1,231 @@
+\documentclass[12pt]{article}						%\documentclass[12pt]{article}
+\usepackage{amsfonts,amsmath,amscd}				%\usepackage{amsfonts,amsmath,amscd}
+\usepackage[utf8]{inputenc}						%\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}					%\usepackage[english,russian]{babel}
+\usepackage{amssymb} 							%\usepackage{amssymb }
+\usepackage{cite}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx,graphics,xcolor}
+\usepackage{caption}%,psfrag}
+\usepackage{subcaption}
+\usepackage{xspace}
+\textheight=252mm \textwidth=170mm \oddsidemargin=1mm
+\topmargin=-55pt
+\parindent=13mm
+\pagestyle{myheadings}
+\renewcommand{\baselinestretch}{1.33}				%\renewcommand{\baselinestretch}{1.33}
+\newcommand{\im}{\mathop{\rm im}\nolimits}
+\newcommand{\mes}{\mathop{\rm mes}\nolimits}
+\renewcommand{\Re}{\mathop{\rm Re}\nolimits}
+\renewcommand{\Im}{\mathop{\rm Im}\nolimits}
+\newcommand{\cst}{\mathop{\rm const}\nolimits}
+\newcommand{\dom}{\mathop{\rm dom}\nolimits}
+\renewcommand{\span}{\mathop{\rm span}\nolimits}
+\newtheorem{theorem}{Теорема}[subsection]
+\newtheorem{lem}{Лемма}[subsection]
+\newtheorem{zam}{Замечание}[subsection]%
+\newtheorem{sled}{Следствие}[subsection]
+\itemsep=10pt
+\setcounter{equation}{0}
+\renewcommand{\theequation}{\arabic{section}.\arabic{subsection}.\arabic{equation}}
+%
+\usepackage{graphicx}
+\usepackage{fancyhdr} % пакет для установки колонтитулов
+\pagestyle{fancy} % смена стиля оформления страниц
+\fancyhf{} % очистка текущих значений
+\fancyhead[C]{\thepage} % установка верхнего колонтитула
+\renewcommand{\headrulewidth}{0pt} % убрать разделительную линию
+\begin{document}
+
+{\bf
+\begin{center}
+	Челябинский государственный университет)
+\end{center}
+\vspace*{4cm}
+
+\vspace*{\baselineskip} \vspace*{\baselineskip}
+\begin{center}
+	ФУНКЦИОНАЛЬНЫЙ АНАЛИЗ
+\end{center} {\large
+\vspace*{\baselineskip}\vspace*{\baselineskip}\vspace*{\baselineskip}}
+\thispagestyle{empty}
+\begin{center}
+	{\bf\it Практикум}
+\end{center}
+\vspace*{\baselineskip}
+
+\vspace*{\baselineskip}
+
+\vspace*{4cm}
+
+\begin{center}
+	Челябинск\\ 2021
+\end{center}
+}
+%\end{titlepage}
+
+\newpage
+
+{\large
+%\begin{titlepage}
+%{\bf
+\begin{center}
+	Министерство  образования и науки\\ Российской
+	Федерации\\\vspace*{\baselineskip}  Челябинский государственный университет
+\end{center}
+
+\vspace*{2cm}
+}
+
+\thispagestyle{empty} \vspace*{\baselineskip}
+\vspace*{\baselineskip}
+\begin{center}
+	{\bf Функциональный анализ}
+\end{center} {\large
+\vspace*{\baselineskip}\vspace*{\baselineskip}\vspace*{\baselineskip}
+\begin{center}
+	{\it Учебно-методическое пособие}
+\end{center}
+\vspace*{\baselineskip}
+\vspace*{\baselineskip}\vspace*{\baselineskip}\vspace*{\baselineskip}\vspace*{\baselineskip}\vspace*{\baselineskip}
+\vspace*{\baselineskip}\vspace*{\baselineskip}\vspace*{\baselineskip}
+
+\vspace*{\baselineskip}
+
+\begin{center}
+	Челябинск 2021
+\end{center}
+
+\newpage
+\thispagestyle{empty} Одобрено С.М. Ворониным
+\vspace*{\baselineskip}
+
+	Методические указания содержат решения типовых задач по курсу основ функционального анализа, читаемого на третьем курсе математического факультета. В пособие включены краткая теория по каждому из разделов курса а также примеры контрольных заданий для проверки знаний, усвоенных на семинарских занятиях.
+
+\vspace*{\baselineskip}
+	Составители: \\
+	доктор физ.-мат. наук, проф. В.Н.~Павленко\\
+	доцент кафедры вычислительной матерматики В.А.~Адарченко\\
+	ну и тут еще народ помогал ...\\
+\vspace*{\baselineskip}
+
+Рецензенты:
+
+\newpage
+
+\setcounter{page}{3}
+
+\tableofcontents
+\newpage
+
+\section*{Предисловие}
+
+	\textcolor{red}{Тут будут правильные слова о том, на кой фиг все это нужно, писать очередную методичку по функану}.
+	\newpage
+
+\section{Метрические пространства}
+
+	\input{theory_01}
+	\input{problems_01}
+	\input{test_01}
+	\newpage
+
+\section{Нормированные пространства. Пространства со скалярным произведением}
+
+	\input{theory_02}
+	\input{problems_02}
+	\input{test_02}
+	\newpage
+
+\section{Топология метрического пространства}
+
+	\input{theory_03}
+	\input{problems_03}
+	\input{test_03}
+	\newpage
+
+\section{Предел последовательности в метрическом пространстве}
+
+	\input{theory_04}
+	\input{problems_04}
+	\input{test_04}
+	\newpage
+
+\section{Предел функции и непрерывность. Сепарабельные метрические пространства}
+
+	\input{theory_05}
+	\input{problems_05}
+	\input{test_05}
+	\newpage
+
+\section{Полные метрические пространства}
+
+ 	\input{theory_06}
+ 	\input{problems_06}
+ 	\input{test_06}
+ 	\newpage
+
+\section{Теоремы о полных метрических пространствах.}
+
+ 	\input{theory_07}
+ 	\input{problems_07}
+ 	\input{test_07}
+ 	\newpage
+
+\section{Компактные метрические пространства}
+
+	\input{theory_08}
+	\input{problems_08}
+	\input{test_07}
+	\newpage
+
+
+\include{bible}
+
+\newpage
+{\large \thispagestyle{empty}
+\begin{center}
+{\bf Функциональный анализ} \end{center}
+ \vspace*{\baselineskip}
+ \begin{center}
+{Практикум} \end{center}
+ \vspace*{\baselineskip}
+\begin{center}
+Составители:\\
+Воронин Сергей Михайлович,\\
+Адарченко Владимир Анатольевич.
+ \end{center}
+}
+ \vspace*{10mm}
+ {\large
+\vspace*{\baselineskip}\vspace*{\baselineskip}\vspace*{\baselineskip}
+\begin{center}
+Редактор
+\end{center}
+\vspace*{\baselineskip}
+
+\begin{center}  Подписано в печать ...2021.\\ Формат 60x84
+1 / 16.  Бумага типографская \textnumero 2.\\ Печать офсетная.
+  Усл. печ. л. 2,0. Уч.-изд. л. 1,6.\\ Тираж
+200 экз.
+  Заказ 55 \end{center}
+
+   \vspace*{\baselineskip}
+
+\begin{center} Челябинский государственный университет\\
+454021 Челябинск, ул. Братьев Кашириных, 129.\end{center}
+
+ \vspace*{\baselineskip}
+
+\begin{center} Полиграфический участок
+ Издательского
+центра ЧелГУ. \\
+ 454021 Челябинск, ул. Молодогвардейцев,
+57б.\end{center}
+
+
+
+\end{document}
